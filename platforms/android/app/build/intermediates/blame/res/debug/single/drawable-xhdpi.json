@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\tom_s\\Nativescript\\smilage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\background.png",
+        "source": "C:\\Users\\tom_s\\Nativescript\\smilage\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\background.png"
+    },
+    {
+        "merged": "C:\\Users\\tom_s\\Nativescript\\smilage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon.png",
+        "source": "C:\\Users\\tom_s\\Nativescript\\smilage\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\tom_s\\Nativescript\\smilage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\logo.png",
+        "source": "C:\\Users\\tom_s\\Nativescript\\smilage\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\logo.png"
+    }
+]

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\tom_s\.android\build-cache\27e3d04c2a0607c578f2ace80edecf17b0a9a7a5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="C:\Users\tom_s\Nativescript\smilage\platforms\android\app\build\intermediates\pre-dexed\debug\classes_7bcb3e585a050b2bc5e2ecd536ad3fb4d82d8003.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tom_s\.android\build-cache\9d7568802370f028060d3240ad6e99b89bc418b1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="dd431d6aa9ce9dc0d429fcd239d412a82ea0e9a7">
+        <dex dex="C:\Users\tom_s\Nativescript\smilage\platforms\android\app\build\intermediates\pre-dexed\debug\classes_f4d29b76f5c486d1a57bec114668fb36997c39d9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tom_s\.android\build-cache\597a97cbb7d7878689b992485df68fbaa400c6de\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="C:\Users\tom_s\Nativescript\smilage\platforms\android\app\build\intermediates\pre-dexed\debug\classes_28a8be7399d372b208c923945495ea96bba89b73.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tom_s\.android\build-cache\32af0f0aa21d8d85a6083f25a7bd39503faf2c5b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\Users\tom_s\Nativescript\smilage\platforms\android\app\build\intermediates\pre-dexed\debug\classes_c4fb4e9e11fbb65c084cf3093b78cd938183211a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tom_s\.android\build-cache\608821152a7260fe342f42e1b5d319a874e0e2aa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="C:\Users\tom_s\Nativescript\smilage\platforms\android\app\build\intermediates\pre-dexed\debug\classes_cb978ce61486467668f163a229574beec9f8513d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\Users\tom_s\Nativescript\smilage\platforms\android\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_7c88aee63584960575018a7d0454b660043aaeb4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tom_s\.android\build-cache\8c7f9070da7a58caf1574538dc2ddf5b68ac14d9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="C:\Users\tom_s\Nativescript\smilage\platforms\android\app\build\intermediates\pre-dexed\debug\classes_afe56b06187a6df005cccde4953d09552f77c492.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tom_s\.android\build-cache\83463b2704e5e2637b764ce9e93f122a2af0c5c3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="C:\Users\tom_s\Nativescript\smilage\platforms\android\app\build\intermediates\pre-dexed\debug\classes_1538e6a53ae7b78152b889784ed096e94dc64a31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tom_s\.android\build-cache\2ab4eff5a734013850c733737fb7c9575c54e569\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\tom_s\Nativescript\smilage\platforms\android\app\build\intermediates\pre-dexed\debug\classes_00eb1ce6079f3b38827a85dd367000c204f397d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tom_s\.android\build-cache\1d151a03e7c7ffd4836f65a51451405e033b3050\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="C:\Users\tom_s\Nativescript\smilage\platforms\android\app\build\intermediates\pre-dexed\debug\classes_2f5501681ff62fb29ddd716bead9629f08c7643e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tom_s\.android\build-cache\b8489f469b231c2d4ea4e489cf34413ed7140dae\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="C:\Users\tom_s\Nativescript\smilage\platforms\android\app\build\intermediates\pre-dexed\debug\classes_97d9fba231a0c5a411a2752948a3bca32a4ece54.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tom_s\.android\build-cache\fb8091a6e13e424f3b412eb0d2fef738dad1a6ea\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="C:\Users\tom_s\Nativescript\smilage\platforms\android\app\build\intermediates\pre-dexed\debug\classes_3fe13c9fa7f599d97af77e7705ed81fe2f3b47b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tom_s\.android\build-cache\7b175f03c4ab795a3d02e1690abb16ddaa8f7661\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="C:\Users\tom_s\Nativescript\smilage\platforms\android\app\build\intermediates\pre-dexed\debug\classes_225b5eb5d30f7f7d09606361b6a3a528ffb07470.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tom_s\.android\build-cache\de3ae4448437f863f809ac207d8308ffecc64aaf\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="C:\Users\tom_s\Nativescript\smilage\platforms\android\app\build\intermediates\pre-dexed\debug\classes_6a51d070fdbfbf80b79296d04e6346b189470f64.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tom_s\.android\build-cache\4eaf57139df83b93b8ceab526fe6949066db2b7a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="746274223beb11b1cda7854d7eec3038695c2c93">
+        <dex dex="C:\Users\tom_s\Nativescript\smilage\platforms\android\app\build\intermediates\pre-dexed\debug\classes_f8231a04bec2c81390ceca258efdc62d12882b04.jar" />
+    </item>
+
+</items>

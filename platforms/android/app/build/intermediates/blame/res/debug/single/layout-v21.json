@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\tom_s\\Nativescript\\smilage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\tom_s\\.android\\build-cache\\27e3d04c2a0607c578f2ace80edecf17b0a9a7a5\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\tom_s\\Nativescript\\smilage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\tom_s\\.android\\build-cache\\27e3d04c2a0607c578f2ace80edecf17b0a9a7a5\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\tom_s\\Nativescript\\smilage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\tom_s\\.android\\build-cache\\27e3d04c2a0607c578f2ace80edecf17b0a9a7a5\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\tom_s\\Nativescript\\smilage\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\tom_s\\.android\\build-cache\\27e3d04c2a0607c578f2ace80edecf17b0a9a7a5\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    }
+]
