@@ -1,15 +1,40 @@
-/*
-In NativeScript, the app.js file is the entry point to your application.
-You can use this file to perform app-level initialization, but the primary
-purpose of the file is to pass control to the app’s first module.
-*/
+const Vue = require('./nativescript-vue')
+const Vuex = require('vuex')
 
-require("./bundle-config");
-var application = require("application");
+Vue.use(Vuex)
 
-application.start({ moduleName: "main-page" });
+const store = new Vuex.Store({
+  state: {
+    count: 42
+  },
 
-/*
-Do not place any code after the application has been started as it will not
-be executed on iOS.
-*/
+  mutations: {
+    decrement(state) {
+      state.count--
+    }
+  }
+})
+
+new Vue({
+  store,
+  template: `
+    <Page>
+      <StackLayout>
+        <Label :text="count + ' taps left'" style="text-align: center; font-size: 30; padding: 20 0;" />
+        <Button text="Tap" @tap="decrement" />
+      </StackLayout>
+    </Page>
+  `,
+
+  computed: {
+    count() {
+      return this.$store.state.count
+    }
+  },
+
+  methods: {
+    decrement() {
+      this.$store.commit('decrement')
+    }
+  }
+}).$start()

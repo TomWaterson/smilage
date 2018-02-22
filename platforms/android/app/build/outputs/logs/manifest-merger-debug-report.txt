@@ -27,8 +27,8 @@ ADDED from C:\Users\tom_s\Nativescript\smilage\platforms\android\app\src\main\An
 		ADDED from C:\Users\tom_s\Nativescript\smilage\platforms\android\app\src\main\AndroidManifest.xml:11:3-31
 uses-sdk
 ADDED from C:\Users\tom_s\Nativescript\smilage\platforms\android\app\src\main\AndroidManifest.xml:13:2-15:34
-MERGED from [:nativescript-optimized:] C:\Users\tom_s\.android\build-cache\4eaf57139df83b93b8ceab526fe6949066db2b7a\output\AndroidManifest.xml:7:5-9:41
-MERGED from [:widgets-release:] C:\Users\tom_s\.android\build-cache\9d7568802370f028060d3240ad6e99b89bc418b1\output\AndroidManifest.xml:7:5-9:41
+MERGED from [:nativescript-optimized:] C:\Users\tom_s\.android\build-cache\4490f475d3ecbab81e57888aa153ead4ed49e313\output\AndroidManifest.xml:7:5-9:41
+MERGED from [:widgets-release:] C:\Users\tom_s\.android\build-cache\e15b5eeeaf09860a1fdd5ddd6c72e7dbc034193a\output\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\tom_s\.android\build-cache\1d151a03e7c7ffd4836f65a51451405e033b3050\output\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\tom_s\.android\build-cache\27e3d04c2a0607c578f2ace80edecf17b0a9a7a5\output\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\tom_s\.android\build-cache\fb8091a6e13e424f3b412eb0d2fef738dad1a6ea\output\AndroidManifest.xml:20:5-44
@@ -65,7 +65,7 @@ ADDED from C:\Users\tom_s\Nativescript\smilage\platforms\android\app\src\main\An
 		ADDED from C:\Users\tom_s\Nativescript\smilage\platforms\android\app\src\main\AndroidManifest.xml:19:19-61
 application
 ADDED from C:\Users\tom_s\Nativescript\smilage\platforms\android\app\src\main\AndroidManifest.xml:21:2-42:16
-MERGED from [:widgets-release:] C:\Users\tom_s\.android\build-cache\9d7568802370f028060d3240ad6e99b89bc418b1\output\AndroidManifest.xml:11:5-12:19
+MERGED from [:widgets-release:] C:\Users\tom_s\.android\build-cache\e15b5eeeaf09860a1fdd5ddd6c72e7dbc034193a\output\AndroidManifest.xml:11:5-12:19
 MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\tom_s\.android\build-cache\1d151a03e7c7ffd4836f65a51451405e033b3050\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\tom_s\.android\build-cache\27e3d04c2a0607c578f2ace80edecf17b0a9a7a5\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\tom_s\.android\build-cache\fb8091a6e13e424f3b412eb0d2fef738dad1a6ea\output\AndroidManifest.xml:26:5-20

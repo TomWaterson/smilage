@@ -1,6 +1,15 @@
 {
+    "axios": true,
+    "flyd": true,
     "nativescript-theme-core": true,
+    "nativescript-unit-test-runner": true,
+    "nativescript-vue": true,
     "ramda": true,
     "tns-core-modules": true,
-    "tns-core-modules-widgets": true
+    "vuex": true,
+    "follow-redirects": true,
+    "is-buffer": true,
+    "tns-core-modules-widgets": true,
+    "debug": true,
+    "ms": true
 }

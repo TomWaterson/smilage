@@ -10,6 +10,7 @@ JavaScript modules. The CommonJS require() function is how you import
 JavaScript modules defined in other files.
 */
 var createViewModel = require("./main-view-model").createViewModel;
+var frameModule = require("ui/frame");
 
 function onNavigatingTo(args) {
     /*
@@ -39,3 +40,8 @@ function here makes the navigatingTo="onNavigatingTo" binding in this page’s X
 file work.
 */
 exports.onNavigatingTo = onNavigatingTo;
+
+exports.startTrip = function() {
+    var topmost = frameModule.topmost();
+    topmost.navigate("pages/start-trip/start-trip");
+};

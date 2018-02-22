@@ -4,6 +4,14 @@
         "directory": "..\\..\\node_modules\\nativescript-theme-core"
     },
     {
+        "name": "nativescript-unit-test-runner",
+        "directory": "..\\..\\node_modules\\nativescript-unit-test-runner"
+    },
+    {
+        "name": "nativescript-vue",
+        "directory": "..\\..\\node_modules\\nativescript-vue"
+    },
+    {
         "name": "tns-core-modules",
         "directory": "..\\..\\node_modules\\tns-core-modules"
     },

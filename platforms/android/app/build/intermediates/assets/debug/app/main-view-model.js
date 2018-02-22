@@ -1,23 +1,19 @@
 var Observable = require("data/observable").Observable;
+var Flyd = require("flyd");
+var R = require("ramda");
 
-function getMessage(counter) {
-    if (counter <= 0) {
-        return "Hoorraaay! You unlocked the NativeScript clicker achievement!";
-    } else {
-        return counter + " taps left, good sir!";
-    }
+var getMessage = (counter) => {
+    var fn = R.cond([
+        [R.lt(0), (counter) => counter],
+        [R.T, R.always(0)]
+    ]);
+    return fn(counter);
 }
 
 function createViewModel() {
     var viewModel = new Observable();
-    viewModel.counter = 42;
-    viewModel.message = getMessage(viewModel.counter);
-
-    viewModel.onTap = function() {
-        this.counter--;
-        this.set("message", getMessage(this.counter));
-    }
-
+    viewModel.callToAction = "Choose an action";
+    viewModel.startText = "Start a new trip";
     return viewModel;
 }
 
