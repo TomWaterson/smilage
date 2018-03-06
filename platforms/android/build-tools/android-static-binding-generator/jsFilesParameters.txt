@@ -1,9 +1,8 @@
 C:\Users\tom_s\Nativescript\smilage\platforms\android\app\src\main\assets\app\app.js
 C:\Users\tom_s\Nativescript\smilage\platforms\android\app\src\main\assets\app\bundle-config.js
-C:\Users\tom_s\Nativescript\smilage\platforms\android\app\src\main\assets\app\main-page.js
-C:\Users\tom_s\Nativescript\smilage\platforms\android\app\src\main\assets\app\main-view-model.js
-C:\Users\tom_s\Nativescript\smilage\platforms\android\app\src\main\assets\app\pages\start-trip\start-trip-model.js
-C:\Users\tom_s\Nativescript\smilage\platforms\android\app\src\main\assets\app\pages\start-trip\start-trip.js
+C:\Users\tom_s\Nativescript\smilage\platforms\android\app\src\main\assets\app\components\startTrip.js
+C:\Users\tom_s\Nativescript\smilage\platforms\android\app\src\main\assets\app\store\index.js
+C:\Users\tom_s\Nativescript\smilage\platforms\android\app\src\main\assets\app\store\modules\trip.js
 C:\Users\tom_s\Nativescript\smilage\platforms\android\app\src\main\assets\app\tests\example.js
 C:\Users\tom_s\Nativescript\smilage\platforms\android\app\src\main\assets\app\tns_modules\nativescript-unit-test-runner\app.js
 C:\Users\tom_s\Nativescript\smilage\platforms\android\app\src\main\assets\app\tns_modules\nativescript-unit-test-runner\config.js
