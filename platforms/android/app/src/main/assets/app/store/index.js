@@ -1,12 +1,12 @@
 const Vue = require('nativescript-vue');
 const Vuex = require('vuex');
-const counter = require('./modules/counter');
+const trip = require('./modules/trip');
 
 Vue.use(Vuex)
 
 const store = new Vuex.Store({
     modules: {
-        counter
+        trip
     }
 })
 

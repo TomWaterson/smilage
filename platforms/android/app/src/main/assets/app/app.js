@@ -1,26 +1,21 @@
 const Vue = require('nativescript-vue');
 const store = require('./store');
-const mapState = require('vuex').mapState;
+const StartTrip = require('./components/startTrip');
+const Home = require('./components/home');
 
 new Vue({
     store,
     template: `
-    <Page>
+    <Page class="page">
         <StackLayout>
-            <Label :text="count + ' taps left'" style="text-align: center; font-size: 30; padding: 20 0;" />
-            <Button text="Tap" @tap="decrement" />
+            <home></home>
         </StackLayout>
     </Page>
     `,
 
-    computed: mapState({
-        count: state => state.counter.count,
-    }),
-
-    methods: {
-        decrement() {
-            this.$store.commit('decrement')
-        }
+    components: {
+        StartTrip,
+        Home
     }
 })
 .$start()

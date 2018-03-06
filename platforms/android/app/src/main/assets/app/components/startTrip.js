@@ -1,13 +1,22 @@
-<StackLayout class="p-20">
-    <Label text="{{ milageLabel }}" class="text-center"/>
-    <TextField hint="Start milage here: " />
-    /*
-    viewModel.startDate = '';
-    viewModel.endDate = '';
-    viewModel.notes = '';
-    viewModel.startMilage = '';
-    viewModel.endMilage = '';
-    viewModel.totalDistance = '';
-    viewModel.amount = 70.00;
-    */
-</StackLayout>
+const Vue = require('nativescript-vue');
+const mapState = require('vuex').mapState;
+const mapMutations = require('vuex').mapMutations;
+
+const StartTrip = Vue.component('start-trip', {
+    computed: mapState({
+        endDate: state => state.trip.startDate.month,
+    }),
+
+    methods: mapMutations({
+        upDateStartField: state => this.$store.commit('updateStartField'),
+    }),
+
+    template: `
+    <StackLayout>
+        <Label text="Enter Start Date" />
+        <DatePicker />
+    </StackLayout>
+    `
+});
+
+module.exports = StartTrip;

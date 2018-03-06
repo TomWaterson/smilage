@@ -1,40 +1,19 @@
-const Vue = require('./nativescript-vue')
-const Vuex = require('vuex')
-
-Vue.use(Vuex)
-
-const store = new Vuex.Store({
-  state: {
-    count: 42
-  },
-
-  mutations: {
-    decrement(state) {
-      state.count--
-    }
-  }
-})
+const Vue = require('nativescript-vue');
+const store = require('./store');
+const StartTrip = require('./components/startTrip');
 
 new Vue({
-  store,
-  template: `
+    store,
+    template: `
     <Page>
-      <StackLayout>
-        <Label :text="count + ' taps left'" style="text-align: center; font-size: 30; padding: 20 0;" />
-        <Button text="Tap" @tap="decrement" />
-      </StackLayout>
+        <StackLayout>
+            <start-trip></start-trip>
+        </StackLayout>
     </Page>
-  `,
+    `,
 
-  computed: {
-    count() {
-      return this.$store.state.count
+    components: {
+        StartTrip
     }
-  },
-
-  methods: {
-    decrement() {
-      this.$store.commit('decrement')
-    }
-  }
-}).$start()
+})
+.$start()
