@@ -12,21 +12,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\tom_s\.android\build-cache\9d7568802370f028060d3240ad6e99b89bc418b1\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="dd431d6aa9ce9dc0d429fcd239d412a82ea0e9a7">
-        <dex dex="C:\Users\tom_s\Nativescript\smilage\platforms\android\app\build\intermediates\pre-dexed\debug\classes_f4d29b76f5c486d1a57bec114668fb36997c39d9.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\tom_s\.android\build-cache\597a97cbb7d7878689b992485df68fbaa400c6de\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
         sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
         <dex dex="C:\Users\tom_s\Nativescript\smilage\platforms\android\app\build\intermediates\pre-dexed\debug\classes_28a8be7399d372b208c923945495ea96bba89b73.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tom_s\.android\build-cache\e15b5eeeaf09860a1fdd5ddd6c72e7dbc034193a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="dd431d6aa9ce9dc0d429fcd239d412a82ea0e9a7">
+        <dex dex="C:\Users\tom_s\Nativescript\smilage\platforms\android\app\build\intermediates\pre-dexed\debug\classes_b90e3bbd0007964481c4c4e403e7ef0cff01af53.jar" />
     </item>
     <item
         is-multidex="false"
@@ -93,6 +93,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\tom_s\.android\build-cache\4490f475d3ecbab81e57888aa153ead4ed49e313\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="746274223beb11b1cda7854d7eec3038695c2c93">
+        <dex dex="C:\Users\tom_s\Nativescript\smilage\platforms\android\app\build\intermediates\pre-dexed\debug\classes_e0f2a6004a520301981127dfd6c8f7bf0db5dd34.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\tom_s\.android\build-cache\b8489f469b231c2d4ea4e489cf34413ed7140dae\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -126,15 +135,6 @@
         revision="27.0.3"
         sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
         <dex dex="C:\Users\tom_s\Nativescript\smilage\platforms\android\app\build\intermediates\pre-dexed\debug\classes_6a51d070fdbfbf80b79296d04e6346b189470f64.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\tom_s\.android\build-cache\4eaf57139df83b93b8ceab526fe6949066db2b7a\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="746274223beb11b1cda7854d7eec3038695c2c93">
-        <dex dex="C:\Users\tom_s\Nativescript\smilage\platforms\android\app\build\intermediates\pre-dexed\debug\classes_f8231a04bec2c81390ceca258efdc62d12882b04.jar" />
     </item>
 
 </items>
