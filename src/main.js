@@ -1,8 +1,7 @@
 import Vue from 'nativescript-vue';
 import store from './store';
-import startTrip from'./components/startTrip';
-import endTrip from'./components/endTrip';
-import home from'./components/home';
+import trips from './components/trip/trips';
+import home from'./components/home/home';
 
 import './styles.scss';
 
@@ -11,6 +10,9 @@ Vue.config.silent = false;
 Vue.prototype.$store = store;
 
 new Vue({
+    components: {
+        trips
+    },
     store,
     render: h => h(home),
 }).$start();
