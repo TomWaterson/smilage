@@ -8,7 +8,6 @@
             <Label top="92" left="16" :text="totalDistance" class="trip__value" />
             <Label top="71" left="92" text="Date" class="trip__label" />
             <Label top="92" left="92" :text="endDate" class="trip__value" />
-            <Image src="~/images/add.png" height="56" top="92" left="320" v-if="index === last" :text="index === last" class="trip__value" />
         </AbsoluteLayout>
     </StackLayout>
 </template>
@@ -16,6 +15,9 @@
 <script>
 export default {
     props: {
+        goToJourney: {
+            type: Function,
+        },
         index: {
             type: Number,
         },

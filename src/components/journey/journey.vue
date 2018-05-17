@@ -4,11 +4,16 @@
             <StackLayout v-if="j.id === journeyState">
                 <journey-action
                     :actionTitle="j.action"
-                    :nextState="j.next">
+                    :nextState="j.next"
+                    :previousState="j.previous">
                 </journey-action>
                 <journey-state
-                    :titleText="j.title" :inputText="j.input"
-                    :hintText="j.hint" :imageSrc="j.image">
+                    :keyboard="j.keyboard" 
+                    :actionTitle="j.action"
+                    :titleText="j.title"
+                    :inputText="j.input"
+                    :hintText="j.hint"
+                    :imageSrc="j.image">
                 </journey-state>
             </StackLayout>
         </StackLayout>
@@ -26,11 +31,11 @@ export default {
     },
 
     computed: {
-        journeyState () {
-            return this.$store.state.trip.travelState
-        },
         journeyData () {
             return this.$store.state.trip.journeyData
+        },
+        journeyState () {
+            return this.$store.state.trip.travelState
         }
     }
 }

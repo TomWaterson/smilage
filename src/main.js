@@ -7,12 +7,10 @@ import './styles.scss';
 
 // Uncommment the following to see NativeScript-Vue output logs
 Vue.config.silent = false;
+
 Vue.prototype.$store = store;
 
 new Vue({
-    components: {
-        trips
-    },
     store,
     render: h => h(home),
 }).$start();
