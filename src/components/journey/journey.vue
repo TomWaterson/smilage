@@ -8,7 +8,7 @@
                     :previousState="j.previous">
                 </journey-action>
                 <journey-state
-                    :keyboard="j.keyboard" 
+                    :keyboard="j.keyboard"
                     :actionTitle="j.action"
                     :titleText="j.title"
                     :inputText="j.input"

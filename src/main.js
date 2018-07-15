@@ -1,6 +1,5 @@
 import Vue from 'nativescript-vue';
 import store from './store';
-import trips from './components/trip/trips';
 import home from'./components/home/home';
 
 import './styles.scss';

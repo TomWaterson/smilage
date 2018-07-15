@@ -48,7 +48,6 @@ export default {
     methods: {
         getPropInStoreTripByTitle (journeyData, prop) {
             return R.compose(R.prop(prop), R.head, R.filter((p) => R.equals(p.action, this.actionTitle)))(journeyData)
-
         }
     }
 }

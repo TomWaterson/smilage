@@ -16,6 +16,7 @@
     }
   },
   "scripts": {
+    "release": "tns build android --release --key-store-path keystore.jks --key-store-password lkjasndlfkjbslkdjf --key-store-alias smilage --key-store-alias-password smilagePassword",
     "build": "webpack --env.tnsAction build",
     "build:android": "npm run build -- --env.android",
     "build:ios": "npm run build -- --env.ios",

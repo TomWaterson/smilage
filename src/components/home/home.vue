@@ -10,15 +10,16 @@
     </StackLayout>
 </template>
 
-
 <script>
 import journey from'./../journey/journey';
 import trips from './../trip/trips';
 
 export default {
+    name: 'home',
+
     components: {
-        journey,
-        trips
+        trips,
+        journey
     },
 
     data () {

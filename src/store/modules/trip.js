@@ -1,5 +1,5 @@
 import axios from 'axios';
-
+import * as R from 'ramda';
 const state = {
     travelState: 'naming',
     trips: [],
@@ -71,11 +71,13 @@ const mutations = {
 
 const actions = {
     fetchTrips ({ commit }) {
-        axios.get('https://smilageapi.azurewebsites.net/api/trips')
+        axios.get('http://10.0.2.2:3000/api/trips')
         .then((response) => {
-            commit('updateTrips', response.data)
+            commit('updateTrips', response.data);
         })
-        .catch((err) => console.log(err))
+        .catch((err) => {
+            return [];
+        })
     },
     addTrip ({ commit }, payload) {
         let {
@@ -91,7 +93,7 @@ const actions = {
             AMOUNT = 0.00
         } = payload || {};
 
-        axios.post('https://smilageapi.azurewebsites.net/api/trips', {
+        axios.post('http://10.0.2.2:3000/api/trips', {
             TRIP_ID,
             USER_ID,
             TRIP_NAME,
@@ -103,8 +105,31 @@ const actions = {
             TOTAL_DISTANCE,
             AMOUNT
         })
-        .then((response) => console.log(response))
         .catch((err) => console.log(err))
+    },
+    editTrip ({ commit }, payload) {
+        let {
+            TRIP_ID = null,
+            USER_ID = null,
+            TRIP_NAME = '',
+            START_DATE = null,
+            END_DATE = null,
+            NOTES = '',
+            START_MILAGE = 0,
+            END_MILAGE = 0,
+            TOTAL_DISTANCE = 0,
+            AMOUNT = 0.00
+        } = payload.data || {};
+
+        if (R.not(R.isNil(TRIP_ID))) {
+            return axios.post('http://10.0.2.2:3000/api/trips/edit/' + payload.id, payload.data);
+        }
+        else {
+            console.log(TRIP_ID);
+        }
+    },
+    deleteTrip ({ commit }, payload) {
+        return axios.post('http://10.0.2.2:3000/api/trips/delete/' + payload, {});
     }
 };
 
